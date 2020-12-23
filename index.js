@@ -4,12 +4,8 @@
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!!
 */
-const XPTN = 'BANGLENT'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/maslent11'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+628165466368'; // Nomor whatsapplu cok
+const XPTN = 'F-BOT'; // Nama Bot Whatsapp
 const aktif = '2 jam'; // Kapan bot lu aktif
-const groupwa = 'https://chat.whatsapp.com/IKmRs4a36fIAyn7X16jpwL'; // OFFICIAL GRUP LU 1
-const youtube = 'https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA'; // OFFICIAL GRUP LU 2
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -146,14 +142,11 @@ conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
-else if (text == '.owner'){
-conn.sendMessage(id, 'Owner BANGLENT wa.me/+628165466368' ,MessageType.text);
+else if (text == 'FALLAH'){
+conn.sendMessage(id, 'SAYA BOT NYA ' ,MessageType.text);
 }
-else if (text == 'Maslent'){
-conn.sendMessage(id, 'Aku BOT nya Banglent' ,MessageType.text);
-}
-else if (text == 'Chichi'){
-conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
+else if (text == 'gajelas lu '){
+conn.sendMessage(id, 'lah' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -1088,25 +1081,25 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _🤖BOT MENGUCAPKAN TERIMAKASIH🤖💌UNTUK BUAT BOT TOTON CHANEL BANGLENT :https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA👈' ,MessageType.text);
+conn.sendMessage(id, ' _BOT MENGUCAPKAN TERIMAKASIH' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/naslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/naslent11' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/maslent11' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾lentbot👾* , Follow Instagram Mimin Yah😻 : https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F-BOT* , Follow Instagram Mimin Yah😻 : https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
