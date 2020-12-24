@@ -4,12 +4,8 @@
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!!
 */
-const XPTN = 'BANGLENT'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/maslent11'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+628165466368'; // Nomor whatsapplu cok
+const XPTN = 'F-BOT'; // Nama Bot Whatsapp
 const aktif = '2 jam'; // Kapan bot lu aktif
-const groupwa = 'https://chat.whatsapp.com/IKmRs4a36fIAyn7X16jpwL'; // OFFICIAL GRUP LU 1
-const youtube = 'https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA'; // OFFICIAL GRUP LU 2
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -147,13 +143,13 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner BANGLENT wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'Owner FALLAH' ,MessageType.text);
 }
-else if (text == 'Maslent'){
-conn.sendMessage(id, 'Aku BOT nya Banglent' ,MessageType.text);
+else if (text == 'bot'){
+conn.sendMessage(id, 'SAYA BOT' ,MessageType.text);
 }
-else if (text == 'Chichi'){
-conn.sendMessage(id, 'pacar owner ihh' ,MessageType.text);
+else if (text == 'apa lu ajg'){
+conn.sendMessage(id, 'ajg' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
